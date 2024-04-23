@@ -1,0 +1,152 @@
+*{
+    font-family: "Zilla Slab", serif;
+}
+
+#content{
+    background-color: rgb(177, 0, 141);
+}
+
+h1{
+    font-family: "Platypi", serif;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 60px;
+    color: white;
+}
+
+#head{
+    font-family: "Platypi", serif;
+    text-align: center;
+    margin-top: 30px;
+    color: white; 
+}
+
+.headers{
+    font-family: "Crimson Text", serif;
+    font-style: normal;
+    font-size: 60px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 20px;
+}
+
+del{
+    color:rgb(31, 26, 26);
+}
+  
+.arrange{
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 40px;
+  }
+
+ 
+.arrange1{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+#portrait{
+    align-items: center;
+    padding : 50px;
+    
+  }
+
+  .photos{
+    width : 250px;
+    height : px;
+  }
+
+
+.bg{
+    background-color:rgba(255, 255, 255, 0.8);
+    border-radius: 20px;
+    padding-bottom: 0px;
+    margin-left : 20px;
+    margin-right : 20px;
+}
+
+h3{
+    font-family: "Platypi", serif;
+    padding-top: 10px;
+    text-align: center;
+    font-family: "Cormorant Garamond", serif;
+}
+
+.arrange1 h5{
+    font-family: "Cormorant Garamond", serif;
+    font-size: 22px;
+}
+
+@media screen and (max-width: 767px){
+    .arrange{
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .bg{
+        background-color:rgba(255, 255, 255, 0.8);
+        border-radius: 20px;
+        padding-bottom: 0px;
+        margin-left : 10px;
+        margin-right : 10px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        width : 300px;
+        height : px;
+    }
+
+    .photos{
+        width : 220px;
+        height : px;
+      }
+
+      .arrange1 h5{
+        font-family: "Cormorant Garamond", serif;
+        font-size: 18px;
+    }
+
+    .headers{
+        font-family: "Crimson Text", serif;
+        font-style: normal;
+        font-size: 35px;
+        text-align: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+
+#av{
+    font-size: 50px;
+    text-align: center;
+    background-color: rgb(248, 248, 248);
+  }
+
+  
+h1{
+    font-family: "Platypi", serif;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 40px;
+    color: white;
+}
+
+#head{
+    font-family: "Platypi", serif;
+    text-align: center;
+    margin-top: 16px;
+    color: white; 
+}
+
+   
+}
+
+
